@@ -1,0 +1,39 @@
+{
+    "name": "less-plugin-pleeease",
+    "version": "0.0.1",
+    "description": "pleeease plugin for less.js",
+    "homepage": "https://github.com/bassjobsen/less-plugin-pleeease/",
+    "author": {
+        "name": "Bass Jobsen"
+    },
+    "contributors": [
+        ""
+    ],
+    "bugs": {
+        "url": "https://github.com/bassjobsen/less-plugin-pleeease/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bassjobsen/less-plugin-pleeease.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/bassjobsen/less-plugin-pleeease/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+	"dependencies": {
+		"pleeease": ">=2.0.0"
+	},
+    "devDependencies": {
+    },
+    "keywords": [
+        "less plugins",
+        "pleeease",
+		"postprocess"		
+    ]
+}
