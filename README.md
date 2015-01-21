@@ -12,7 +12,7 @@ npm install -g less-plugin-pleeease
 and then on the command line,
 
 ```
-lessc file.less --="browsers"
+lessc file.less --pleeease="browsers"
 ```
 
 The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers). Allows you to override many options in one go. Accept same value as autoprefixer.browsers and override it, based on CanIUse database (exactly as Autoprefixer).
@@ -23,8 +23,8 @@ See [pleeease](http://pleeease.io/docs/) for the complete documentation.
 
 ```
 var LessPluginpleeease = require('less-plugin-pleeease'),
-    pleeeasePlugin = new LessPluginpleeease({browsers: [ie9]});
-less.render(lessString, { plugins: [pleeeasePlugin] })
+    pleeeasePlugin = new LessPluginpleeease({browsers: ["IE 9"]});
+    less.render(lessString, { plugins: [pleeeasePlugin] })
   .then(
 ```
 
